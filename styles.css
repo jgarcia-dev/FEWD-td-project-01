@@ -74,8 +74,14 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2);
 }
+
+header.experience {
+  text-align: center;
+  background: none;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -88,6 +94,12 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
+
+.job-title {
+  background-color: rgb(148, 148, 148);
+  color: white;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -99,7 +111,11 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #83d8ff;
+}
+.center {
+  text-align: center;
+  margin: auto;
 }
 
 ul.skills {
